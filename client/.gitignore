@@ -1,3 +1,5 @@
 node_modules/
 .next/
 .env
+client/golf-client/node_modules/
+client/golf-client/.next/
