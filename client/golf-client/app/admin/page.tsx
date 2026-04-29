@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useAuth, AppUser } from "../context/AuthContext";
 import {
   ScoreStore, Score,
-  DrawStore, DrawEntry, generateDrawNumbers,
+  DrawStore, DrawEntry, generateDrawNumbers, calculateMatches,
   WinnerStore, Winner,
   CharityStore, Charity,
   SubscriptionStore,
